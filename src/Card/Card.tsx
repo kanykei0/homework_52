@@ -1,7 +1,7 @@
 interface Props {
     rank: string;
     suit: string;
-};
+}
 
 const CardElement = ({rank, suit}: Props) => {
     let suitSymbol: string;
